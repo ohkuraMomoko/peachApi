@@ -1,0 +1,82 @@
+[
+  {
+    "fromHostName": "CFCEAUAT01",
+    "fromIP": "172.16.4.121",
+    "toHostName": "CHUAT02",
+    "toIP": "10.101.1.10",
+    "ports": 9182,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200611422770
+  },
+  {
+    "fromHostName": "CFCEAUAT01",
+    "fromIP": "172.16.4.121",
+    "toHostName": "CHDWT02",
+    "toIP": "10.101.2.7",
+    "ports": 9182,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200611422770
+  },
+  {
+    "fromHostName": "CHSQLUAT02",
+    "fromIP": "10.101.5.5",
+    "toHostName": "CFCEAUAT02",
+    "toIP": "172.16.4.122",
+    "ports": 12202,
+    "use": "(UDP)將Windows EventLog拋送至GrayLog蒐集",
+    "status": "生效中",
+    "requestId": 20200611422770
+  },
+  {
+    "fromHostName": "CHUAT02",
+    "fromIP": "10.101.1.10",
+    "toHostName": "CFCEAUAT02",
+    "toIP": "172.16.4.122",
+    "ports": 12202,
+    "use": "(UDP)將Windows EventLog拋送至GrayLog蒐集",
+    "status": "生效中",
+    "requestId": 20200611422770
+  },
+  {
+    "fromHostName": "CHDWT02",
+    "fromIP": "10.101.2.7",
+    "toHostName": "CFCEAUAT02",
+    "toIP": "172.16.4.122",
+    "ports": 12202,
+    "use": "(UDP)將Windows EventLog拋送至GrayLog蒐集",
+    "status": "生效中",
+    "requestId": 20200611422770
+  },
+  {
+    "fromHostName": "PHUAT01",
+    "fromIP": "10.104.1.8",
+    "toHostName": "CFCEAUAT02",
+    "toIP": "172.16.4.122",
+    "ports": 12202,
+    "use": "(UDP)將Windows EventLog拋送至GrayLog蒐集",
+    "status": "生效中",
+    "requestId": 20200612422829
+  },
+  {
+    "fromHostName": "CFCEAUAT01",
+    "fromIP": "172.16.4.121",
+    "toHostName": "PHUAT01",
+    "toIP": "10.104.1.8",
+    "ports": 12202,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200612422829
+  },
+  {
+    "fromHostName": "CFCEAUAT01",
+    "fromIP": "172.16.4.121",
+    "toHostName": "CFCWEBUAT01",
+    "toIP": "172.21.2.15",
+    "ports": 12202,
+    "use": "Promethues效能數據提取",
+    "status": "申請中",
+    "requestId": 20200910428526
+  }
+]

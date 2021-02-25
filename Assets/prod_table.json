@@ -1,0 +1,62 @@
+[
+  {
+    "fromHostName": "CFCEAMON01",
+    "fromIP": "172.16.1.25",
+    "toHostName": "PHAP01",
+    "toIP": "10.104.1.5",
+    "ports": 9182,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200702424107
+  },
+  {
+    "fromHostName": "CFCEAMON01",
+    "fromIP": "172.16.1.25",
+    "toHostName": "CHDW03",
+    "toIP": "10.101.2.6",
+    "ports": 9182,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200702424107
+  },
+  {
+    "fromHostName": "CFCEAMON01",
+    "fromIP": "172.16.1.25",
+    "toHostName": "CHMID01",
+    "toIP": "10.101.1.11",
+    "ports": 9182,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200702424107
+  },
+  {
+    "fromHostName": "CFCEAMON01",
+    "fromIP": "172.16.1.25",
+    "toHostName": "CFCFTP04",
+    "toIP": "172.21.2.21",
+    "ports": 9182,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200910428526
+  },
+  {
+    "fromHostName": "CFCEAMON01",
+    "fromIP": "172.16.1.25",
+    "toHostName": "CFCWEB04",
+    "toIP": "172.21.2.14",
+    "ports": 9182,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200910428526
+  },
+  {
+    "fromHostName": "CFCEAMON01",
+    "fromIP": "172.16.1.25",
+    "toHostName": "CFCWEB06",
+    "toIP": "172.21.2.25",
+    "ports": 9182,
+    "use": "Promethues效能數據提取",
+    "status": "生效中",
+    "requestId": 20200910428526
+  }
+]
